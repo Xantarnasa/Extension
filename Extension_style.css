@@ -1,0 +1,14 @@
+.texte {
+	font-family: Inknut Antiqua, serif;
+	font-size: 15px;
+	color:#000000;
+	margin:5px;
+}
+body {
+    margin: 5px;
+    width:500px;
+    min-height: fit-content;
+    max-height: fit-content;
+    position:relative;
+    vertical-align: middle;
+}

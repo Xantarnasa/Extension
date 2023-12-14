@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Wiki Challenge",
+    "version": "0.0.2",
+    "description": "Jeu du wikipédia Challenge",
+    "permissions": ["alarms", "notifications", "storage"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    
+    "action": {
+        "default_popup": "visuel.html",
+        "default_icon": "hiicon.png",
+        "default_title": "Time is finished"
+    }
+}
